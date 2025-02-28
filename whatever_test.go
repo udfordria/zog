@@ -1,6 +1,7 @@
 package zog
 
 import (
+	"encoding/json"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -19,6 +20,46 @@ func TestWhateverPrimitive(t *testing.T) {
 	err = s.Parse(22, &out)
 	assert.Equal(t, 22, out)
 	assert.Nil(t, err)
+}
+
+type Step[A any] struct {
+	Name    string
+	Payload any
+}
+type TestGenericsPayload struct {
+	Steps []Step[any]
+}
+
+var StepZog = Struct(Schema{
+	"name":    String().Required(),
+	"payload": Whatever(),
+})
+
+// UTILITIES
+
+var TestGenericsPayloadSchema = Schema{
+	// Transformers not in schema
+	"steps": Slice(StepZog),
+}
+
+func TestWhateverPrimitiveObj(t *testing.T) {
+	var data map[string]interface{}
+
+	err := json.Unmarshal([]byte(`{"steps":[{"name":"cool","payload":22},{"name":"dope","payload":null},{"name":"super","payload":[3.14]}]}`), &data)
+	if err != nil {
+		t.Log(err)
+		return
+	}
+
+	var out TestGenericsPayload
+	s := Struct(TestGenericsPayloadSchema)
+	errMaps := s.Parse(data, &out)
+	if errMaps != nil {
+		t.Log(errMaps)
+		return
+	}
+
+	t.Log(out)
 }
 
 func TestWhateverParseSetCoercerPassThrough(t *testing.T) {
