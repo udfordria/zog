@@ -4,3 +4,4 @@ playground
 .direnv
 *.cov
 *.out
+.DS_Store
