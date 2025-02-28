@@ -3,9 +3,9 @@ package conf
 import (
 	"testing"
 
-	p "github.com/Oudwins/zog/internals"
-	zconst "github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	p "github.com/udfordria/zog/internals"
+	zconst "github.com/udfordria/zog/zconst"
 )
 
 func TestDefaultIssueFormatter(t *testing.T) {

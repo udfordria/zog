@@ -8,8 +8,8 @@ A very small package for using Zog schemas to parse json into structs. It export
 
 ```go
 import (
-  z "github.com/Oudwins/zog"
-  "github.com/Oudwins/zog/parsers/zjson"
+  z "github.com/udfordria/zog"
+  "github.com/udfordria/zog/parsers/zjson"
   "bytes"
 )
 var userSchema = z.Struct(z.Schema{

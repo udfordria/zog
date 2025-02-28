@@ -8,8 +8,8 @@ For Zog provides a built in helper package called `zhttp` that helps parse JSON,
 
 ```go
 import (
-  z "github.com/Oudwins/zog"
-  "github.com/Oudwins/zog/zhttp"
+  z "github.com/udfordria/zog"
+  "github.com/udfordria/zog/zhttp"
 )
 var userSchema = z.Struct(z.Schema{
   "name": z.String().Required(),
@@ -53,6 +53,6 @@ assert.deepEqual(qs.parse("foo[bar]=baz"), {
 });
 ```
 
-zhttp does not currently support these types of forms (see [issue #8](https://github.com/Oudwins/zog/issues/8)). However I suggest you try using the [form go package](https://github.com/go-playground/form) which supports this type of parsing. You can integrate the library with zhttp by overriding the `zhttp.Config.Parsers.Form` function.
+zhttp does not currently support these types of forms (see [issue #8](https://github.com/udfordria/zog/issues/8)). However I suggest you try using the [form go package](https://github.com/go-playground/form) which supports this type of parsing. You can integrate the library with zhttp by overriding the `zhttp.Config.Parsers.Form` function.
 
 > **WARNING**: This depends on `DataProviders` which are not yet documented and may change in the future. I encourage you to avoid doing this unless you really need to.

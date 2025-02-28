@@ -3,8 +3,8 @@ package zog
 import (
 	"reflect"
 
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/zconst"
+	p "github.com/udfordria/zog/internals"
+	"github.com/udfordria/zog/zconst"
 )
 
 // ! Passing Types through

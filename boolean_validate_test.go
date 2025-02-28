@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/tutils"
 	"github.com/stretchr/testify/assert"
+	p "github.com/udfordria/zog/internals"
+	"github.com/udfordria/zog/tutils"
 )
 
 func TestBoolValidate(t *testing.T) {

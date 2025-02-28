@@ -15,7 +15,7 @@ Lets go through an example of overriding the `float64` coercer function, because
 ```go
 import (
   // import the conf package
-	"github.com/Oudwins/zog/conf"
+	"github.com/udfordria/zog/conf"
 )
 
 // we override the coercer function for float64

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Oudwins/zog/i18n/en"
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/zconst"
+	"github.com/udfordria/zog/i18n/en"
+	p "github.com/udfordria/zog/internals"
+	"github.com/udfordria/zog/zconst"
 )
 
 // Deprecated: Use DefaultIssueMsgMap instead

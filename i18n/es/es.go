@@ -1,7 +1,7 @@
 package es
 
 import (
-	"github.com/Oudwins/zog/zconst"
+	"github.com/udfordria/zog/zconst"
 )
 
 var Map zconst.LangMap = map[zconst.ZogType]map[zconst.ZogIssueCode]string{

@@ -3,9 +3,9 @@ package i18n
 import (
 	"testing"
 
-	"github.com/Oudwins/zog"
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	"github.com/udfordria/zog"
+	"github.com/udfordria/zog/zconst"
 )
 
 // Define test language maps

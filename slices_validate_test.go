@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Oudwins/zog/tutils"
 	"github.com/stretchr/testify/assert"
+	"github.com/udfordria/zog/tutils"
 )
 
 func TestValidateSliceRequired(t *testing.T) {

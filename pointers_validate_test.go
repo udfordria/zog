@@ -3,9 +3,9 @@ package zog
 import (
 	"testing"
 
-	"github.com/Oudwins/zog/tutils"
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	"github.com/udfordria/zog/tutils"
+	"github.com/udfordria/zog/zconst"
 )
 
 func TestValidatePtrPrimitive(t *testing.T) {

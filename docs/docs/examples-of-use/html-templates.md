@@ -44,4 +44,4 @@ templ signupFormTempl(data *SignupFormData, errs z.ZogErrMap) {
 }
 ```
 
-**PS:** If you are using go html templates & tailwindcss you might be interesting in my port of [tailwind-merge to go.](https://github.com/Oudwins/tailwind-merge-go)
+**PS:** If you are using go html templates & tailwindcss you might be interesting in my port of [tailwind-merge to go.](https://github.com/udfordria/tailwind-merge-go)

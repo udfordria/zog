@@ -5,9 +5,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/Oudwins/zog/conf"
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/zconst"
+	"github.com/udfordria/zog/conf"
+	p "github.com/udfordria/zog/internals"
+	"github.com/udfordria/zog/zconst"
 )
 
 var _ PrimitiveZogSchema[string] = &StringSchema{}

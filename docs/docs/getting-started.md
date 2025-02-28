@@ -10,14 +10,14 @@ toc_max_heading_level: 4
 #### **1 Install**
 
 ```bash
-go get github.com/Oudwins/zog
+go get github.com/udfordria/zog
 ```
 
 #### **2 Create a user schema and its struct**
 
 ```go
 import (
-  z "github.com/Oudwins/zog"
+  z "github.com/udfordria/zog"
    )
 
 
@@ -76,7 +76,7 @@ The [zhttp package](https://zog.dev/packages/zhttp) has you covered for JSON, Fo
 
 ```go
 import (
-  zhttp "github.com/Oudwins/zog/zhttp"
+  zhttp "github.com/udfordria/zog/zhttp"
    )
 err := userSchema.Parse(zhttp.Request(r), &user)
 ```
@@ -85,7 +85,7 @@ If you are receiving json some other way you can use the [zjson package](https:/
 
 ```go
 import (
-  zjson "github.com/Oudwins/zog/zjson"
+  zjson "github.com/udfordria/zog/zjson"
    )
 err := userSchema.Parse(zjson.Decode(bytes.NewReader(jsonBytes)), &user)
 ```
@@ -96,7 +96,7 @@ The [zenv package](https://zog.dev/packages/zenv) has you covered, just do:
 
 ```go
 import (
-  zenv "github.com/Oudwins/zog/zenv"
+  zenv "github.com/udfordria/zog/zenv"
    )
 err := envSchema.Parse(zenv.NewDataProvider(), &envs)
 ```

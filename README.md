@@ -1,6 +1,6 @@
 <div align="center">
     <br />
-    <a href="https://github.com/Oudwins/zog">
+    <a href="https://github.com/udfordria/zog">
      <img src="https://raw.githubusercontent.com/Oudwins/zog/master/assets/zog-banner.png" alt="Zog, a Zod-like schema parser & validator" />
     </a>
 </div>
@@ -8,14 +8,14 @@
 # ZOG - A Zod & Yup like Schema Parser & Validator for GO
 
 [![Coverage Status](https://coveralls.io/repos/github/Oudwins/zog/badge.svg?branch=master)](https://coveralls.io/github/Oudwins/zog?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/Oudwins/zog)](https://goreportcard.com/report/github.com/Oudwins/zog)
-[![GitHub tag](https://img.shields.io/github/tag/Oudwins/zog?include_prereleases=&sort=semver&color=blue)](https://github.com/Oudwins/zog/releases/)
-<a href="https://pkg.go.dev/github.com/Oudwins/zog"><img src="https://pkg.go.dev/badge/github.com//github.com/Oudwins/tailwind-merge-go.svg" alt="Go Reference" /></a>
+[![Go Report Card](https://goreportcard.com/badge/Oudwins/zog)](https://goreportcard.com/report/github.com/udfordria/zog)
+[![GitHub tag](https://img.shields.io/github/tag/Oudwins/zog?include_prereleases=&sort=semver&color=blue)](https://github.com/udfordria/zog/releases/)
+<a href="https://pkg.go.dev/github.com/udfordria/zog"><img src="https://pkg.go.dev/badge/github.com//github.com/udfordria/tailwind-merge-go.svg" alt="Go Reference" /></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge.svg)](https://github.com/avelino/awesome-go)
 [![Mentioned in Awesome Templ](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/templ-go/awesome-templ)
-[![stars - zog](https://img.shields.io/github/stars/Oudwins/zog?style=social)](https://github.com/Oudwins/zog)
+[![stars - zog](https://img.shields.io/github/stars/Oudwins/zog?style=social)](https://github.com/udfordria/zog)
 
 [![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](https://zog.dev)
 
@@ -52,14 +52,14 @@ Or don't, below is the quickstart guide
 #### **1 Install**
 
 ```bash
-go get github.com/Oudwins/zog
+go get github.com/udfordria/zog
 ```
 
 #### **2 Create a user schema and its struct**
 
 ```go
 import (
-  z "github.com/Oudwins/zog"
+  z "github.com/udfordria/zog"
    )
 
 
@@ -117,7 +117,7 @@ The [zhttp package](https://zog.dev/packages/zhttp) has you covered for JSON, Fo
 
 ```go
 import (
-  zhttp "github.com/Oudwins/zog/zhttp"
+  zhttp "github.com/udfordria/zog/zhttp"
    )
 err := userSchema.Parse(zhttp.Request(r), &user)
 ```
@@ -126,7 +126,7 @@ If you are receiving json some other way you can use the [zjson package](https:/
 
 ```go
 import (
-  zjson "github.com/Oudwins/zog/zjson"
+  zjson "github.com/udfordria/zog/zjson"
    )
 err := userSchema.Parse(zjson.Decode(bytes.NewReader(jsonBytes)), &user)
 ```
@@ -137,7 +137,7 @@ The [zenv package](https://zog.dev/packages/zenv) has you covered, just do:
 
 ```go
 import (
-  zenv "github.com/Oudwins/zog/zenv"
+  zenv "github.com/udfordria/zog/zenv"
    )
 err := envSchema.Parse(zenv.NewDataProvider(), &envs)
 ```

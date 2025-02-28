@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"strings"
 
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/parsers/zjson"
-	"github.com/Oudwins/zog/zconst"
+	p "github.com/udfordria/zog/internals"
+	"github.com/udfordria/zog/parsers/zjson"
+	"github.com/udfordria/zog/zconst"
 )
 
 type ParserFunc = func(r *http.Request) p.DpFactory

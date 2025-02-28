@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	p "github.com/Oudwins/zog/internals"
+	p "github.com/udfordria/zog/internals"
 )
 
 var _ p.DataProvider = &envDataProvider{}

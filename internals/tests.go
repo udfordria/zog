@@ -3,7 +3,7 @@ package internals
 import (
 	"reflect"
 
-	zconst "github.com/Oudwins/zog/zconst"
+	zconst "github.com/udfordria/zog/zconst"
 	"golang.org/x/exp/constraints"
 )
 

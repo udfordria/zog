@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	z "github.com/Oudwins/zog"
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	z "github.com/udfordria/zog"
+	"github.com/udfordria/zog/zconst"
 )
 
 func TestRequest(t *testing.T) {

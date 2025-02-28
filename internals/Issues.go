@@ -3,7 +3,7 @@ package internals
 import (
 	"fmt"
 
-	zconst "github.com/Oudwins/zog/zconst"
+	zconst "github.com/udfordria/zog/zconst"
 )
 
 type ZogIssue interface {

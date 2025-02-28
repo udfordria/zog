@@ -1,7 +1,7 @@
 package internals
 
 import (
-	zconst "github.com/Oudwins/zog/zconst"
+	zconst "github.com/udfordria/zog/zconst"
 )
 
 // Zog Context interface. This is the interface that is passed to schema tests, pre and post transforms

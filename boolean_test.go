@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	p "github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/tutils"
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	p "github.com/udfordria/zog/internals"
+	"github.com/udfordria/zog/tutils"
+	"github.com/udfordria/zog/zconst"
 )
 
 func TestBoolParse(t *testing.T) {

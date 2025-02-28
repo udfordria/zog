@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	z "github.com/Oudwins/zog"
 	"github.com/stretchr/testify/assert"
+	z "github.com/udfordria/zog"
 )
 
 func TestEnvParsing(t *testing.T) {

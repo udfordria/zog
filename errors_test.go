@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	p "github.com/Oudwins/zog/internals"
 	"github.com/stretchr/testify/assert"
+	p "github.com/udfordria/zog/internals"
 )
 
 func TestZogIssueString(t *testing.T) {

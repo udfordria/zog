@@ -43,7 +43,7 @@ const config: Config = {
           routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/Oudwins/zog/main/docs",
+          editUrl: "https://github.com/udfordria/zog/main/docs",
         },
         blog: false,
         theme: {
@@ -80,7 +80,7 @@ const config: Config = {
           label: "Docs",
         },
         {
-          href: "https://github.com/Oudwins/zog",
+          href: "https://github.com/udfordria/zog",
           label: "GitHub",
           position: "right",
         },

@@ -3,8 +3,8 @@ package zog
 import (
 	"testing"
 
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	"github.com/udfordria/zog/zconst"
 )
 
 func TestInt64Parse(t *testing.T) {

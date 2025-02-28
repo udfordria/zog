@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	"github.com/udfordria/zog/zconst"
 )
 
 func TestTimeRequired(t *testing.T) {

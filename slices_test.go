@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Oudwins/zog/tutils"
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	"github.com/udfordria/zog/tutils"
+	"github.com/udfordria/zog/zconst"
 )
 
 // !STRUCTS

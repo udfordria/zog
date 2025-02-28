@@ -190,8 +190,8 @@ Zog provides a `conf` package where you can override the issue messages for spec
 
 ```go
 import (
-  conf "github.com/Oudwins/zog/zconf"
-  zconst "github.com/Oudwins/zog/zconst"
+  conf "github.com/udfordria/zog/zconf"
+  zconst "github.com/udfordria/zog/zconst"
 )
 
 // override specific issue messages

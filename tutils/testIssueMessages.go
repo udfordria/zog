@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Oudwins/zog/i18n/en"
-	"github.com/Oudwins/zog/internals"
-	"github.com/Oudwins/zog/zconst"
 	"github.com/stretchr/testify/assert"
+	"github.com/udfordria/zog/i18n/en"
+	"github.com/udfordria/zog/internals"
+	"github.com/udfordria/zog/zconst"
 )
 
 func VerifyDefaultIssueMessages(t *testing.T, errs internals.ZogIssueList) {

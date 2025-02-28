@@ -8,8 +8,8 @@ sidebar_position: 3
 
 ```go
 import (
-  z "github.com/Oudwins/zog"
-  "github.com/Oudwins/zog/zenv"
+  z "github.com/udfordria/zog"
+  "github.com/udfordria/zog/zenv"
 )
 
 var envSchema = z.Struct(z.Schema{
